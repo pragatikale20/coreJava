@@ -6,7 +6,7 @@ public static void main(String[] args) {
             new Holiday("January 26", "Republic Day"),
             new Holiday("August 15", "Independence Day"),
         };
-  //enhanced for loop
+  
         for (Holiday holiday : holidays) {
             System.out.println(" Date: " + holiday.date + " ---->" + " Festival: " + holiday.festival);
         }
